@@ -1,0 +1,17 @@
+@model List<PizzaDelivery.Models.DogViewModel>
+
+@{
+    
+}
+
+<h1>Hello World</h1>
+
+
+<ul>
+    @foreach (var dog in Model)
+    {
+        <li>@dog.Name (@dog.Age)</li>
+    }
+</ul>
+
+
